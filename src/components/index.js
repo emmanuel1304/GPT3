@@ -1,0 +1,9 @@
+export {default as Blog} from './homepage-components/blog/Blog';
+export {default as Header} from './homepage-components/header/Header';
+export {default as Navbar} from './homepage-components/navbar/Navbar';
+export {default as Brand} from './homepage-components/brand/Brand';
+export {default as CTA} from './homepage-components/cta/CTA';
+export {default as Features} from './homepage-components/features/Features';
+export {default as Possibility} from './homepage-components/possibility/Possibility';
+export {default as WhatGPT3} from './homepage-components/whatgpt3/WhatGPT3';
+export {default as Footer} from './homepage-components/footer/Footer';
