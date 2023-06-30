@@ -1,13 +1,19 @@
 import React from 'react'
 import './header.css'
 import ai from '../../../assets/ai.png'
-
+import { useSpring, animated } from 'react-spring'
 
 
 
 const Header = () => {
+  
+  const fade = useSpring({ 
+    from:{opacity:0},
+    to: {opacity:5}
+  })  
+
   return (
-    <div className='header section-padding scale-up-center' id='header'> 
+    <animated.div className='header section-padding' id='header' style={fade}> 
         <div className='header-text-container'> 
             <div className='header-h1-container'>
                 <h1>AI is the future of mankind moving us to greater places</h1>
@@ -23,7 +29,7 @@ const Header = () => {
         <div className='header-image-container'> 
             <img src={ai} alt='ai'/>
         </div>
-    </div>
+    </animated.div>
   )
 }
 
