@@ -1,0 +1,148 @@
+.features{ 
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: space-between;
+    width: 100%;
+    background-color: black;
+}
+
+.feature-first-container{ 
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+
+
+.feature-paragraph-container p{ 
+    color: whitesmoke;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    margin-right: 5rem;
+    margin-top: 5rem;
+
+}
+
+.feature-second-container{ 
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.feature-second-container-first-child{ 
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: end;
+    margin-bottom: 2.2rem;
+}
+
+
+
+
+
+.feature-h1-container h1{ 
+    font-size: 28px;
+    color: white;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-transform: capitalize;
+    line-height: 2.3rem;
+}
+
+.feature-h1-container{ 
+    text-align: left;
+    margin-right: 5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+}
+
+.feature-second-container-first-child-h2{ 
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    width: 30%;
+    margin-right: 2rem;
+}
+
+.feature-second-container-first-child-h2 h2{ 
+    font-size: 22px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    font-style: italic;
+} 
+
+.feature-second-container-first-child-p{ 
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    justify-content: start;
+    margin-left: 0 0;
+}
+
+.feature-second-container-first-child-p p{ 
+    font-size: 17px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 20px;
+    color: white;
+    font-style: italic;
+    text-transform: capitalize;
+    color: pink ;
+}   
+
+
+@media screen and (max-width:900px){ 
+    .features{
+        display: flex;
+        flex-direction: column;
+    }
+    .feature-first-container{ 
+        width: 70%;
+    }
+    .feature-paragraph-container p{ 
+        margin-top: 2rem;
+        margin-bottom: 3rem;
+    }
+    .feature-second-container{ 
+        width: 100%;
+    }
+    .feature-second-container-first-child-h2{ 
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 800px){ 
+    .features{
+        display: flex;
+        flex-direction: column;
+    }
+    .feature-first-container{ 
+        width: 70%;
+    }
+    .feature-second-container-first-child{ 
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: start;
+        width: 100%;
+    }
+    .feature-second-container-first-child-h2{ 
+        width: 100%;
+        margin-bottom: 1.5rem;
+    }
+    .feature-second-container-first-child-p{ 
+        width: 100%;
+    }
+    .feature-h1-container{ 
+        width: 100%;
+        margin: 0 0;
+    }
+    .feature-first-container{ 
+        width: 100%;
+    }
+}

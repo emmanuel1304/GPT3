@@ -16,7 +16,6 @@ function Landing(){
             <WhatGPT3 />
             <Features />
             <Possibility />
-            <CTA />
             <Blog />
             <Footer />
         </div>

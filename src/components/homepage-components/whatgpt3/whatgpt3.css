@@ -1,0 +1,85 @@
+.whatgpt3-container{ 
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 13rem;
+}
+
+.whatgpt3-image-container{ 
+    margin: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.whatgpt3-image-container img{  
+    width: 500px;
+}
+
+.whatgpt3-text-container{ 
+    display: flex;
+    flex-direction: column;
+}
+
+.whatgpt3-text-h1-container{ 
+    font-size: 19px;
+    font-weight: bold;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    text-transform: capitalize;
+}
+
+.whatgpt3-text-paragraph-container{ 
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.whatgpt3-text-paragraph-container p { 
+    font-size: 20px;
+    line-height: 2rem;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.line{ 
+    height: 4px;
+    background-color: rgb(247, 42, 76);
+    margin-top: 0.5rem;
+    border-radius: 20px;
+
+}
+
+.whatgpt3-text-button-container{ 
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+
+.whatgpt3-text-button-container button { 
+    padding: 0.8rem 2rem;   
+    font-size: 16px;
+    border-radius: 500px;
+    border-style: dotted;
+    border-color: rgb(236, 45, 77);
+    background-color: transparent;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    cursor: pointer;
+    
+}
+
+@media screen and (max-width:1050px){ 
+    .whatgpt3-container{ 
+        display: flex;
+        flex-direction: column;
+    }
+    .whatgpt3-image-container img{ 
+        width: 100%;
+    }
+    .whatgpt3-image-container{ 
+        margin-bottom: 5rem;
+    }
+}
+

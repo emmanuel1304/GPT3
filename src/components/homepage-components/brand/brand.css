@@ -1,0 +1,53 @@
+.brand-container{ 
+    background-color: black;
+    margin-top: 0rem;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5rem;
+    
+}
+
+.brand-image-container{ 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.brand-image-container img{ 
+    height: 100px;
+    margin: 0 2rem;
+}
+
+@media screen and (max-width: 1050px){ 
+    .brand-image-container img{ 
+        height: 80px;
+        margin: 0 2rem;
+    }
+    .brand-container{ 
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 700px){ 
+    .brand-image-container img{ 
+        height: 80px;
+        margin: 0 2rem;
+    }
+    .brand-container{ 
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 550px){ 
+    .brand-image-container img{ 
+        height: 80px;
+        margin: 0 1rem;
+    }
+    .brand-container{ 
+        max-width: 100%;
+    }
+}
