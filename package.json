@@ -14,6 +14,8 @@
     "react-spring": "^9.7.2",
     "web-vitals": "^2.1.4"
   },
+  "homepage": "https://emmanuel1304.github.io/GPT3/",
+
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
